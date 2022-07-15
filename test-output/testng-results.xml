@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-15T10:16:58 GMT+01:00" name="Default suite" finished-at="2022-07-15T10:16:59 GMT+01:00" duration-ms="53">
+  <suite started-at="2022-07-15T14:57:04 GMT+01:00" name="Default suite" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="69">
     <groups>
     </groups>
-    <test started-at="2022-07-15T10:16:58 GMT+01:00" name="Default test" finished-at="2022-07-15T10:16:59 GMT+01:00" duration-ms="53">
-      <class name="ui.DataProvidTest">
-        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@353d0772]" started-at="2022-07-15T10:16:58 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T10:16:58 GMT+01:00" duration-ms="10" status="PASS">
+    <test started-at="2022-07-15T14:57:04 GMT+01:00" name="Default test" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="69">
+      <class name="ui.DemoProvider2">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DemoProvider2@470f1802]" started-at="2022-07-15T14:57:04 GMT+01:00" name="test" data-provider="login" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DemoProvider2@470f1802]" started-at="2022-07-15T14:57:04 GMT+01:00" name="test" data-provider="login" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DemoProvider2@470f1802]" started-at="2022-07-15T14:57:04 GMT+01:00" name="test" data-provider="login" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DemoProvider2@470f1802]" started-at="2022-07-15T14:57:04 GMT+01:00" name="test" data-provider="login" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DemoProvider2@470f1802]" started-at="2022-07-15T14:57:04 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@353d0772]" started-at="2022-07-15T10:16:58 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T10:16:58 GMT+01:00" duration-ms="1" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DemoProvider2@470f1802]" started-at="2022-07-15T14:57:04 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@353d0772]" started-at="2022-07-15T10:16:58 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T10:16:58 GMT+01:00" duration-ms="1" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DemoProvider2@470f1802]" started-at="2022-07-15T14:57:04 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T14:57:04 GMT+01:00" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +134,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- ui.DataProvidTest -->
+      </class> <!-- ui.DemoProvider2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
