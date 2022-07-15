@@ -1,45 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-07T14:15:34 GMT+01:00" name="Default suite" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="53">
+  <suite started-at="2022-07-15T09:18:14 GMT+01:00" name="Default suite" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="69">
     <groups>
     </groups>
-    <test started-at="2022-07-07T14:15:34 GMT+01:00" name="Default test" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="53">
-      <class name="ui.LoginTest">
-        <test-method is-config="true" signature="applicationlogin()[pri:0, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="applicationlogin" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="8" status="PASS">
+    <test started-at="2022-07-15T09:18:14 GMT+01:00" name="Default test" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="69">
+      <class name="ui.DataProvidTest">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@4b0b0854]" started-at="2022-07-15T09:18:14 GMT+01:00" name="test" data-provider="dataset" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- applicationlogin -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="connectedbd" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="0" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@4b0b0854]" started-at="2022-07-15T09:18:14 GMT+01:00" name="test" data-provider="dataset" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method signature="loginOut()[pri:1, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="loginOut" description="test logout" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="7" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@4b0b0854]" started-at="2022-07-15T09:18:14 GMT+01:00" name="test" data-provider="dataset" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginOut -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="disconnectedbd" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="0" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@4b0b0854]" started-at="2022-07-15T09:18:14 GMT+01:00" name="test" data-provider="dataset" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method signature="loginTest()[pri:2, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="loginTest" description="test logout" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="2" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@4b0b0854]" started-at="2022-07-15T09:18:14 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="connectedbd" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="0" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@4b0b0854]" started-at="2022-07-15T09:18:14 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="disconnectedbd" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="1" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataProvidTest@4b0b0854]" started-at="2022-07-15T09:18:14 GMT+01:00" name="test1" data-provider="dataset1" finished-at="2022-07-15T09:18:14 GMT+01:00" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method is-config="true" signature="applicationlogout()[pri:0, instance:ui.LoginTest@78b66d36]" started-at="2022-07-07T14:15:34 GMT+01:00" name="applicationlogout" finished-at="2022-07-07T14:15:34 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationlogout -->
-      </class> <!-- ui.LoginTest -->
+        </test-method> <!-- test1 -->
+      </class> <!-- ui.DataProvidTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
