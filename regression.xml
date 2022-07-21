@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Regression Suite">
-  <test name="Regression">
+<suite name="listener test">
+<listeners>
+<listener class-name="common.Listeners"/>
+</listeners>
+  <test name="listener ">
+  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="ui.GroupTest"/>
-      <class name="ui.LoginTest"/>
-      <class name="ui.VerifyTitleandText"/>
-      <class name="ui.VerifyTitle"/>
+            <class name="ui.ListenerDemo"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

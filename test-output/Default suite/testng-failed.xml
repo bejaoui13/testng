@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ui.DemoProvider2">
+      <class name="ui.ListenerDemo">
         <methods>
-          <include name="test"/>
+          <include name="lanchBrowser"/>
+          <include name="launchbrowser"/>
         </methods>
-      </class> <!-- ui.DemoProvider2 -->
+      </class> <!-- ui.ListenerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
