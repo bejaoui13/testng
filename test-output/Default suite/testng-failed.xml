@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ui.ListenerDemo">
+      <class name="assuranceAutomation.TC001_GET_request">
         <methods>
-          <include name="lanchBrowser"/>
-          <include name="launchbrowser"/>
+          <include name="getDetail"/>
         </methods>
-      </class> <!-- ui.ListenerDemo -->
+      </class> <!-- assuranceAutomation.TC001_GET_request -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

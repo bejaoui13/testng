@@ -4,8 +4,7 @@ import org.testng.annotations.Test;
 
 public class DemoProvider2{
 
-	
-	@Test(dataProvider="login", dataProviderClass =DemoProvider.class)
+ 	@Test(dataProvider="login", dataProviderClass =DemoProvider.class)
 	public void test(String username, String password)
 	{
 		System.out.println(username+".."+ password);
@@ -17,5 +16,4 @@ public class DemoProvider2{
 		System.out.println(username+"==="+ password+"==="+ test);
 	}
 	
- 
-}
+ }

@@ -4,7 +4,8 @@ import org.testng.ITestResult;
 import org.testng.internal.annotations.DisabledRetryAnalyzer;
 
 public class Retry extends DisabledRetryAnalyzer{
-
+ 
+	
 	private int count =0; 
 	private static int maxTry =4 ; 
 	
