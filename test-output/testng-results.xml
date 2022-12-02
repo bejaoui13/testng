@@ -1,59 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-24T14:35:02 GMT+01:00" name="Default suite" finished-at="2022-08-24T14:35:04 GMT+01:00" duration-ms="2102">
+  <suite started-at="2022-12-02T08:50:08 GMT+01:00" name="Suite" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="43653">
     <groups>
+      <group name="regression">
+        <method signature="GroupTest.aTest1()[pri:2, instance:ui.GroupTest@6e171cd7]" name="aTest1" class="ui.GroupTest"/>
+        <method signature="GroupTest.aTest2()[pri:2, instance:ui.GroupTest@6e171cd7]" name="aTest2" class="ui.GroupTest"/>
+      </group> <!-- regression -->
+      <group name="vbt">
+        <method signature="GroupTest.bTest2()[pri:1, instance:ui.GroupTest@6e171cd7]" name="bTest2" class="ui.GroupTest"/>
+        <method signature="GroupTest.bTest3()[pri:1, instance:ui.GroupTest@6e171cd7]" name="bTest3" class="ui.GroupTest"/>
+      </group> <!-- vbt -->
     </groups>
-    <test started-at="2022-08-24T14:35:02 GMT+01:00" name="Default test" finished-at="2022-08-24T14:35:04 GMT+01:00" duration-ms="2102">
-      <class name="assuranceAutomation.TC001_GET_request">
-        <test-method signature="getDetail()[pri:0, instance:assuranceAutomation.TC001_GET_request@c267ef4]" started-at="2022-08-24T14:35:02 GMT+01:00" name="getDetail" finished-at="2022-08-24T14:35:04 GMT+01:00" duration-ms="2057" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [20] but found [200]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [20] but found [200]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at assuranceAutomation.TC001_GET_request.getDetail(TC001_GET_request.java:28)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2022-12-02T08:50:08 GMT+01:00" name="Test" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="43653">
+      <class name="ui.VerifyTitleandText">
+        <test-method signature="testTitle()[pri:0, instance:ui.VerifyTitleandText@7334aada]" started-at="2022-12-02T08:50:08 GMT+01:00" name="testTitle" finished-at="2022-12-02T08:50:32 GMT+01:00" duration-ms="24859" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getDetail -->
-      </class> <!-- assuranceAutomation.TC001_GET_request -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testTitle -->
+      </class> <!-- ui.VerifyTitleandText -->
+      <class name="ui.VerifyTitle">
+        <test-method signature="testTitle()[pri:0, instance:ui.VerifyTitle@1d9b7cce]" started-at="2022-12-02T08:50:33 GMT+01:00" name="testTitle" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="18697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+      </class> <!-- ui.VerifyTitle -->
+      <class name="ui.LoginTest">
+        <test-method is-config="true" signature="applicationlogin()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="applicationlogin" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationlogin -->
+        <test-method signature="loginOut()[pri:1, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="loginOut" description="test logout" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOut -->
+        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectedbd -->
+        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectedbd -->
+        <test-method signature="loginTest()[pri:2, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="loginTest" description="test logout" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectedbd -->
+        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectedbd -->
+        <test-method is-config="true" signature="applicationlogout()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:51 GMT+01:00" name="applicationlogout" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationlogout -->
+      </class> <!-- ui.LoginTest -->
+      <class name="ui.GroupTest">
+        <test-method is-config="true" signature="applicationlogin()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="applicationlogin" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationlogin -->
+        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectedbd -->
+        <test-method signature="bTest2()[pri:1, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="bTest2" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest2 -->
+        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectedbd -->
+        <test-method signature="bTest3()[pri:1, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="bTest3" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectedbd -->
+        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectedbd -->
+        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectedbd -->
+        <test-method signature="aTest1()[pri:2, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="aTest1" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest1 -->
+        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectedbd -->
+        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectedbd -->
+        <test-method signature="aTest2()[pri:2, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="aTest2" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest2 -->
+        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectedbd -->
+        <test-method is-config="true" signature="applicationlogout()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:51 GMT+01:00" name="applicationlogout" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationlogout -->
+      </class> <!-- ui.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
