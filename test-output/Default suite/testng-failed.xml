@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assuranceAutomation.TC001_GET_request">
+      <class name="datadrivertestng.DataDrivenAddNewEmplL">
         <methods>
-          <include name="getDetail"/>
+          <include name="postNewEmployeL" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- assuranceAutomation.TC001_GET_request -->
+      </class> <!-- datadrivertestng.DataDrivenAddNewEmplL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

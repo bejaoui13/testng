@@ -12,8 +12,9 @@ public class SkipDemo {
 	@Test(enabled=true)
 	public void skipTest()
 	{
-		System.out.println("skiped this test as it not complete");
+		System.out.println("doooo this test as it not complete");
 	}
+	
 	
 	@Test
 	public void skipTest1()
@@ -22,10 +23,11 @@ public class SkipDemo {
 		throw new SkipException("Skipping this test");
 	}
 	
+	
 	@Test
 	public void skipTest2()
 	{
-		System.out.println("skiped this test ");
+		System.out.println("do this test ");
 		if  (datasetup==true)
 		{
 			System.out.println("Execute this Test ");

@@ -14,22 +14,20 @@ public class VerifyTitle {
 	@Test
 	public void testTitle() throws InterruptedException
 	{
-		SoftAssert softassert = new SoftAssert();
-		String exceptedtitle ="Electronics, Cars, Fashion, Collectibles & More | eBay";
-		String exceptedText = "Search";
+	
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.ebay.com/");
-		String actualtitle =driver.getTitle();
-		System.out.println("verification title");
-		softassert.assertEquals(actualtitle, exceptedtitle,"title verification faild");
+		String actualtitle = driver.getTitle();
+ 		SoftAssert softassert = new SoftAssert();
+		String exceptedtitle ="Electronics, Cars, Fashion, Collectibles & More | eBay";
+		softassert.assertEquals(actualtitle, exceptedtitle,"title verification faild");  
 
-
+		
 		WebElement actualtext = driver.findElement(By.xpath("//*[@id=\"gh-btn\"]"));
 		String actualtextvalue = actualtext.getAttribute("value");
-		System.out.println("verification text");
-		softassert.assertEquals(actualtextvalue, exceptedText, "text verification faild");
-		System.out.println("close browser");
+ 		String exceptedText = "Search";
+    	softassert.assertEquals(actualtextvalue, exceptedText, "text verification faild");
         driver.close();
 		softassert.assertAll();
 	}

@@ -12,7 +12,7 @@ public class LoginTest {
 	@BeforeTest
 	public void applicationlogin()
 	{
-		System.out.println(" ** before to login ");
+		System.out.println("BeforeTest ");
 
 	}
 	
@@ -20,34 +20,34 @@ public class LoginTest {
 	@AfterTest 
 	public void applicationlogout()
 	{
-		System.out.println("  ** logout from appl ");
+		System.out.println("AfterTest  ");
 
 	}
 	
 	@BeforeMethod
 	public void connectedbd()
 	{
-		System.out.println(" ***** connected  to  bd ");
+		System.out.println("    BeforeMethod ");
 
 	}
 	
 	@AfterMethod
 	public void disconnectedbd()
 	{
-		System.out.println(" *****  disconnectedbd to  bd ");
+		System.out.println("     AfterMethod");
 
 	}
 	
-	@Test(priority=2,description="test logout")
+	@Test(priority=1,description="test loginnnn")
 	public void loginTest()
 	{
-		System.out.println(" login successful");
+		System.out.println("    Test 1 : login successful");
 	}
 
-	@Test(priority=1,description="test logout")
+	@Test(priority=2,description="test logoutttt")
 	public void loginOut()
 	{
-		System.out.println(" logout successful");
+		System.out.println(" Test 2 :   logout successful");
 
 	}
 }

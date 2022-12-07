@@ -1,123 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-02T08:50:08 GMT+01:00" name="Suite" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="43653">
+  <suite started-at="2022-12-07T16:38:53 GMT+01:00" name="Default suite" finished-at="2022-12-07T16:38:57 GMT+01:00" duration-ms="4442">
     <groups>
-      <group name="regression">
-        <method signature="GroupTest.aTest1()[pri:2, instance:ui.GroupTest@6e171cd7]" name="aTest1" class="ui.GroupTest"/>
-        <method signature="GroupTest.aTest2()[pri:2, instance:ui.GroupTest@6e171cd7]" name="aTest2" class="ui.GroupTest"/>
-      </group> <!-- regression -->
-      <group name="vbt">
-        <method signature="GroupTest.bTest2()[pri:1, instance:ui.GroupTest@6e171cd7]" name="bTest2" class="ui.GroupTest"/>
-        <method signature="GroupTest.bTest3()[pri:1, instance:ui.GroupTest@6e171cd7]" name="bTest3" class="ui.GroupTest"/>
-      </group> <!-- vbt -->
     </groups>
-    <test started-at="2022-12-02T08:50:08 GMT+01:00" name="Test" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="43653">
-      <class name="ui.VerifyTitleandText">
-        <test-method signature="testTitle()[pri:0, instance:ui.VerifyTitleandText@7334aada]" started-at="2022-12-02T08:50:08 GMT+01:00" name="testTitle" finished-at="2022-12-02T08:50:32 GMT+01:00" duration-ms="24859" status="PASS">
+    <test started-at="2022-12-07T16:38:53 GMT+01:00" name="Default test" finished-at="2022-12-07T16:38:57 GMT+01:00" duration-ms="4442">
+      <class name="datadrivertestng.DataDrivenAddNewEmplL">
+        <test-method signature="postNewEmployeL(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivertestng.DataDrivenAddNewEmplL@4ac3c60d]" started-at="2022-12-07T16:38:53 GMT+01:00" name="postNewEmployeL" data-provider="employedataprovider" finished-at="2022-12-07T16:38:56 GMT+01:00" duration-ms="2954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTitle -->
-      </class> <!-- ui.VerifyTitleandText -->
-      <class name="ui.VerifyTitle">
-        <test-method signature="testTitle()[pri:0, instance:ui.VerifyTitle@1d9b7cce]" started-at="2022-12-02T08:50:33 GMT+01:00" name="testTitle" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="18697" status="PASS">
+        </test-method> <!-- postNewEmployeL -->
+        <test-method signature="postNewEmployeL(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivertestng.DataDrivenAddNewEmplL@4ac3c60d]" started-at="2022-12-07T16:38:56 GMT+01:00" name="postNewEmployeL" data-provider="employedataprovider" finished-at="2022-12-07T16:38:57 GMT+01:00" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTitle -->
-      </class> <!-- ui.VerifyTitle -->
-      <class name="ui.LoginTest">
-        <test-method is-config="true" signature="applicationlogin()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="applicationlogin" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
+        </test-method> <!-- postNewEmployeL -->
+        <test-method signature="postNewEmployeL(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivertestng.DataDrivenAddNewEmplL@4ac3c60d]" started-at="2022-12-07T16:38:57 GMT+01:00" name="postNewEmployeL" data-provider="employedataprovider" finished-at="2022-12-07T16:38:57 GMT+01:00" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ssss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- applicationlogin -->
-        <test-method signature="loginOut()[pri:1, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="loginOut" description="test logout" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginOut -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method signature="loginTest()[pri:2, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="loginTest" description="test logout" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method is-config="true" signature="applicationlogout()[pri:0, instance:ui.LoginTest@441772e]" started-at="2022-12-02T08:50:51 GMT+01:00" name="applicationlogout" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationlogout -->
-      </class> <!-- ui.LoginTest -->
-      <class name="ui.GroupTest">
-        <test-method is-config="true" signature="applicationlogin()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="applicationlogin" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationlogin -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method signature="bTest2()[pri:1, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="bTest2" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bTest2 -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method signature="bTest3()[pri:1, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="bTest3" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bTest3 -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method signature="aTest1()[pri:2, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="aTest1" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTest1 -->
-        <test-method is-config="true" signature="connectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="connectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectedbd -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method signature="aTest2()[pri:2, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="aTest2" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTest2 -->
-        <test-method is-config="true" signature="disconnectedbd()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:08 GMT+01:00" name="disconnectedbd" finished-at="2022-12-02T08:50:08 GMT+01:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedbd -->
-        <test-method is-config="true" signature="applicationlogout()[pri:0, instance:ui.GroupTest@6e171cd7]" started-at="2022-12-02T08:50:51 GMT+01:00" name="applicationlogout" finished-at="2022-12-02T08:50:51 GMT+01:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationlogout -->
-      </class> <!-- ui.GroupTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- postNewEmployeL -->
+      </class> <!-- datadrivertestng.DataDrivenAddNewEmplL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

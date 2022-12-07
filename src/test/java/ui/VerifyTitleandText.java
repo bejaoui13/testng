@@ -13,12 +13,12 @@ public class VerifyTitleandText {
 	@Test
 	public void testTitle()
 	{
-		String exceptedtitle ="Electronics, Cars, Fashion, Collectibles & More | eBay";
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.ebay.com/");
 		String actualtitle =driver.getTitle();
-		
+		String exceptedtitle ="Electronics, Cars, Fashion, Collectibles & More | eBay";
+
 		assertEquals(actualtitle, exceptedtitle);
 		driver.close();
 	}

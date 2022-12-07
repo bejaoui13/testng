@@ -1,8 +1,6 @@
 package ui;
 
 
-
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -12,12 +10,10 @@ import org.testng.annotations.Test;
 
 public class GroupTest {
 
-
-	
 	@BeforeTest
 	public void applicationlogin()
 	{
-		System.out.println(" ** before to login ");
+		System.out.println("before to login ");
 
 	}
 	
@@ -25,50 +21,50 @@ public class GroupTest {
 	@AfterTest 
 	public void applicationlogout()
 	{
-		System.out.println("  ** logout from appl ");
+		System.out.println("logout from appl ");
 
 	}
 	
 	@BeforeMethod
 	public void connectedbd()
 	{
-		System.out.println(" ***** connected  to  bd ");
+		System.out.println("connected  to bd ");
 
 	}
 	
 	@AfterMethod
 	public void disconnectedbd()
 	{
-		System.out.println(" *****  disconnectedbd to  bd ");
+		System.out.println("disconnectedbd to bd ");
 
 	}
 	
-	@Test(priority=2, groups="regression")
-	public void aTest1()
+	@Test(priority=1, groups="regression")
+	public void aTest()
 	{
-		System.out.println(" aTest1 ");
+		System.out.println(" aTest ");
 	}
 
 	
 	@Test(priority=2, groups="regression")
-	public void aTest2()
+	public void bTest()
 	{
 	
-		System.out.println(" aTest2 ");
+		System.out.println(" bTest ");
 	}
 		
-	@Test(priority=1, groups="vbt")
-	public void bTest2()
+	@Test(priority=3, groups="vbt")
+	public void cTest()
 	{
-		System.out.println("bTest2");
+		System.out.println("cTest");
 
 	}
 	
 	
-	@Test(priority=1, groups="vbt")
-	public void bTest3()
+	@Test(priority=4, groups="vbt")
+	public void dTest()
 	{
-		System.out.println("bTest3");
+		System.out.println("dTest");
 
 	}
 }
