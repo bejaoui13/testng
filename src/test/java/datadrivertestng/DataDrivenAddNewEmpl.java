@@ -13,6 +13,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class DataDrivenAddNewEmpl {
 	
+	@SuppressWarnings("unchecked")
 	@Test
 	public void postNewEmploye()
 	

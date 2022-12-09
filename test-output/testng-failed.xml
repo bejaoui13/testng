@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datadrivertestng.DataDrivenAddNewEmplL">
+      <class name="datadrivertestng.DataDrivenExcel">
         <methods>
-          <include name="postNewEmployeL" invocation-numbers="1 2"/>
+          <include name="postNewEmployeL"/>
         </methods>
-      </class> <!-- datadrivertestng.DataDrivenAddNewEmplL -->
+      </class> <!-- datadrivertestng.DataDrivenExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

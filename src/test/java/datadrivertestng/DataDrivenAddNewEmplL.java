@@ -50,6 +50,7 @@ public class DataDrivenAddNewEmplL {
 
 	@DataProvider(name = "employedataprovider")
 	String[][] getEmplData() {
+		
 		String emplData[][] = { { "abc", "3000", "40" }, { "ahh", "4000", "30" }, { "ssss", "2000", "20" } };
 		return (emplData);
 
