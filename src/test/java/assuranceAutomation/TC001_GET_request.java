@@ -15,6 +15,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class TC001_GET_request {
 
+	@SuppressWarnings("unchecked")
 	@Test 
 	void getDetail()
 	{

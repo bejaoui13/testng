@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datadrivertestng.DataDrivenExcel">
+      <class name="datepicker.BookingSearch">
         <methods>
-          <include name="postNewEmployeL"/>
+          <include name="bookingsearchdate"/>
         </methods>
-      </class> <!-- datadrivertestng.DataDrivenExcel -->
+      </class> <!-- datepicker.BookingSearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
