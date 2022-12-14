@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testngBooking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestngBooking(failed)">
+    <classes>
+      <class name="datepicker.BookingSearch">
+        <methods>
+          <include name="bookingsearchdatedepart"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- datepicker.BookingSearch -->
+    </classes>
+  </test> <!-- TestngBooking(failed) -->
+</suite> <!-- Failed suite [testngBooking] -->
