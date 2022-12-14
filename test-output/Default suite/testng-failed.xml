@@ -6,6 +6,8 @@
       <class name="datepicker.BookingSearch">
         <methods>
           <include name="bookingsearchdate"/>
+          <include name="bookingsearchdatedepart"/>
+          <include name="launchbrowser"/>
         </methods>
       </class> <!-- datepicker.BookingSearch -->
     </classes>

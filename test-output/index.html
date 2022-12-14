@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\QUALITY-4\AppData\Local\Temp\testng-eclipse-73479821\testng-customsuite.xml</span>
+                    <span>C:\Users\QUALITY-4\AppData\Local\Temp\testng-eclipse-1356558283\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="datepicker.BookingSearch" class="method navigator-link" hash-for-method="bookingsearchdate">bookingsearchdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="datepicker.BookingSearch" class="method navigator-link" hash-for-method="bookingsearchdatedepart">bookingsearchdatedepart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -132,12 +137,19 @@
                   <span class="method-name">bookingsearchdate</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingsearchdatedepart">
+                  </a> <!-- bookingsearchdatedepart -->
+                  <span class="method-name">bookingsearchdatedepart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\QUALITY-4\AppData\Local\Temp\testng-eclipse-73479821\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\QUALITY-4\AppData\Local\Temp\testng-eclipse-1356558283\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -186,11 +198,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'bookingsearchdate')
 data.setCell(0, 2, 'datepicker.BookingSearch')
-data.setCell(0, 3, 5830);
+data.setCell(0, 3, 2735);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bookingsearchdatedepart')
+data.setCell(1, 2, 'datepicker.BookingSearch')
+data.setCell(1, 3, 2544);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -222,9 +238,17 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">datepicker.BookingSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">bookingsearchdate</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">2777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingsearchdatedepart</span>
+                <span class="method-start">5517 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
