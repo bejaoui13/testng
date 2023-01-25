@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datepicker.BookingSearch">
+      <class name="register_User.R_RegisterFileProperties">
         <methods>
-          <include name="bookingsearchdate"/>
-          <include name="bookingsearchdatedepart"/>
-          <include name="launchbrowser"/>
+          <include name="userlogoutproperties"/>
+          <include name="userloginproperties"/>
+          <include name="resgisteruserFileProperties"/>
+          <include name="startDriver"/>
         </methods>
-      </class> <!-- datepicker.BookingSearch -->
+      </class> <!-- register_User.R_RegisterFileProperties -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
