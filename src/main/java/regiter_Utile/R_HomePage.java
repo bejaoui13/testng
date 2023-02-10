@@ -21,7 +21,7 @@ public class R_HomePage extends R_BasePage {
 	@FindBy(linkText = "Register") 	   WebElement RegiterLink;
 	@FindBy(linkText = "Log in")     	WebElement LoginLink;
 	@FindBy(linkText = "Contact us") 	WebElement ContactLink;
-	@FindBy(id = "customerCurrency") 	WebElement Currencyid;
+	@FindBy(name = "customerCurrency") 	WebElement Currencyid;
 	@FindBy(linkText = "Computers") 	WebElement ComputerLink;
 	@FindBy(linkText = "Notebooks") 	WebElement NotebooksLink;
 
@@ -38,9 +38,9 @@ public class R_HomePage extends R_BasePage {
 		clickbutton(ContactLink);
 	}
 
-	public void currencyId() {
+	public void chnagecurrencyId() {
 		select = new Select(Currencyid);
-		select.deselectByVisibleText("Euro");
+		select.selectByIndex(1);
 	}
 
 	public void computerLinkPage() {

@@ -47,8 +47,9 @@ public class R_TestBase {
 		driver.navigate().to("https://demo.nopcommerce.com/");
 	}
 
-	// AfterSuite
+	//@AfterSuite
 	public void stopDriver() {
+		driver.close();
 	}
 
 	// AfterMethode
